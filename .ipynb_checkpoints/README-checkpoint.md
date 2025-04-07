@@ -1,58 +1,63 @@
-# 📘 University Curriculum Trend Analyzer
+# University Curriculum Trend Analyzer 📊🎓
 
-Analyze how keywords like **"AI"**, **"data"**, and **"machine learning"** trend across university course catalogs using an interactive Streamlit dashboard.
-
----
-
-## 📊 Overview
-
-This project visualizes keyword trends in course descriptions over time and by department. It helps track academic focus areas and emerging tech topics in university curricula.
+A data-driven dashboard that analyzes university course curriculum trends over time using natural language processing and visualization techniques.
 
 ---
 
-## ✨ Features
+## 🚀 Project Overview
 
-- 📅 Filter by year  
-- 🏛️ Filter by department  
-- 🔍 Enter custom keywords  
-- 📈 View keyword trends over time  
-- 🧮 Compare keyword mentions by department  
-- ☁️ Generate a word cloud of course descriptions  
-- 📥 Download filtered data as CSV  
+The **University Curriculum Trend Analyzer** helps uncover how university course offerings evolve by analyzing course catalog descriptions across years. This can be useful for:
 
----
+- Students deciding what to study
+- Educators tracking emerging fields
+- Universities comparing academic trends
 
-## 📂 Folder Structure
-
-curriculum-analyzer/ ├── app/ # Streamlit dashboard (dashboard.py) ├── data/ # Cleaned/scraped datasets ├── notebooks/ # Jupyter notebooks for analysis ├── requirements.txt # Python dependencies └── README.md # Project documentation
-
+Built with **Streamlit** for interactivity and **Jupyter Notebooks** for analysis.
 
 ---
 
-## 🚀 How to Run
+## 🧰 Tech Stack
 
-1. **Clone the repo**
+- Python 🐍
+- Streamlit 🌐
+- Pandas & NumPy 📊
+- BeautifulSoup4 & Requests 🌐
+- Matplotlib & Plotly 📈
+- Scikit-learn 🔍
+- Jupyter Notebooks 📓
 
-```bash
-git clone https://github.com/your-username/curriculum-analyzer.git
-cd curriculum-analyzer
-Install requirements
+---
+
+## 📂 Project Structure
+
+university-curriculum-trend-analyzer/ ├── app/ # Streamlit app files ├── assets/ # Images for the dashboard ├── data/ # Raw & processed datasets ├── notebooks/ # Data analysis notebooks ├── README.md # You are here! ├── requirements.txt # Project dependencies └── .gitignore # Files/folders to exclude from Git
+
+
+---
+
+## 🧪 How to Run the App
+
+1. **Clone this repo**:
+   ```bash
+   git clone https://github.com/Anjana120/university-curriculum-trend-analyzer.git
+   cd university-curriculum-trend-analyzer
+Install dependencies:
+
 pip install -r requirements.txt
-Run the Streamlit app
+
+Run the Streamlit app:
+
 streamlit run app/dashboard.py
 
-🛠️ Built With
-Python, Pandas
-Streamlit, Plotly, WordCloud
-Jupyter Notebook
 
 👩‍💻 Author
+
 Anjana Kulkarni
-📧 [Email me](12anjanakulkarni@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/anjana-kulkarni-465498189)
+🔗 [LinkedIn](www.linkedin.com/in/anjana-kulkarni-46549818)
+🔗 [GitHub](https://github.com/Anjana120/)
 
+📄 License
 
+This project is licensed under the MIT License.
 
-📜 License
-This project is licensed under the MIT License — feel free to use, modify, and share it.
 
