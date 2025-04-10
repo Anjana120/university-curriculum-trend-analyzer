@@ -1,3 +1,6 @@
+[![Streamlit App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://anjana120-university-curriculum-trend-analy-appdashboard-baonqc.streamlit.app)
+
+
 # University Curriculum Trend Analyzer 📊🎓
 
 A data-driven dashboard that analyzes university course curriculum trends over time using natural language processing and visualization techniques.
